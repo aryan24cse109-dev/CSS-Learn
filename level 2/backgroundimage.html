@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Background image</title>
+    <style>
+        #image{
+            background-image: url("myntralogo.jpg");
+            height: 50px;
+            width: 50px;
+            background-repeat: no-repeat;
+            background-size: contain ; 
+            background-position: center;
+            background-attachment: local;
+        }
+        /* image islie choti hogi kyunki contain ka use kiya hain and image ka size chota hain */
+        #icon{
+            background-image: url("myntralogo.jpg");
+            height: 50px;
+            width: 50px;
+            background-repeat: no-repeat;
+            background-size: contain ; 
+            background-position: center;
+            background-attachment: fixed;
+        }
+        /*icon unvisible hain kyunki fixed and contain  ka use kiya hain and fixed ka matlab — image viewport (pure screen) ke relative position leti hai. Aapka div sirf 50x50px hai aur background-position: center hai — image screen ke center mein fix ho jaati hai jo is chote div ke bahar hoti hai! */
+       
+        #image2{
+            background-image: url("myntralogo.jpg");
+            height: 50px;
+            width: 50px;
+            background-repeat: no-repeat;
+            background-size: cover ; 
+            background-position: center;
+            background-attachment: local;
+        }
+        /*Image2 DIKHEGI — 50x50 box ko poora cover karegi */
+        #icon2{
+            background-image: url("myntralogo.jpg");
+            height: 50px;
+            width: 50px;
+            background-repeat: no-repeat;
+            background-size: cover ; 
+            background-position: center;
+            background-attachment: fixed;
+        }
+        /*icon2 unvisible hain kyunki fixed and cover  ka use kiya hain and fixed ka matlab — image viewport (pure screen) ke relative position leti hai. Aapka div sirf 50x50px hai aur background-position: center hai — image screen ke center mein fix ho jaati hai jo is chote div ke bahar hoti hai! */
+
+
+
+         #image3{
+            background-image: url("myntralogo.jpg");
+            height: 50px;
+            width: 50px;
+            background-repeat: no-repeat;
+            background-size: contain ; 
+            background-position: center;
+            background-attachment: scroll;
+        }
+       
+        #icon3{
+            background-image: url("myntralogo.jpg");
+            height: 50px;
+            width: 50px;
+            background-repeat: no-repeat;
+            background-size: contain ; 
+            background-position: center;
+            background-attachment: scroll;
+        }
+       
+       
+        #image4{
+            background-image: url("myntralogo.jpg");
+            height: 50px;
+            width: 50px;
+            background-repeat: no-repeat;
+            background-size: cover ; 
+            background-position: center;
+            background-attachment: scroll;
+        }
+       
+        #icon4{
+            background-image: url("myntralogo.jpg");
+            height: 50px;
+            width: 50px;
+            background-repeat: no-repeat;
+            background-size: cover ; 
+            background-position: center;
+            background-attachment: scroll;
+        }
+
+
+        /*When we use background-size: cover, the image will be scaled to cover the entire container, which may result in some parts of the image being cropped. In contrast, background-size: contain scales the image to fit within the container while maintaining its aspect ratio, which may leave empty space around the image if the aspect ratios do not match. */
+
+    </style>
+</head>
+<body>
+    <div id="image"></div>
+        <div id="icon"></div>
+         <div id="image2"></div>
+         <div id="icon2"></div>
+         <div id="image3"></div>
+        <div id="icon3"></div>
+         <div id="image4"></div>
+         <div id="icon4"></div>
+    
+</body>
+</html>

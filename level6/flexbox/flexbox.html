@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Flexbox</title>
+<style>
+    * {
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 40px;
+            width: 50px;
+            margin: 5px;
+            padding: 5px 10px 15px 20px;
+            border: 3px solid black;
+            border-radius: 5px;
+            box-sizing: content-box;
+            text-align: center;
+            background-color: red;
+            color: azure;
+            }
+        .container{
+            height:300px;
+            width:600px;
+            background-color: #222;
+            color: azure;
+            margin: 5px;
+            padding: 5px 10px 15px 20px;
+            border: 3px solid hotpink;
+            border-radius: 5px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-start; 
+            flex-wrap: wrap; 
+            align-items: flex-start;
+            align-content:space-evenly;
+
+        }
+        
+
+       </style>
+</head>
+<body>
+    <h1 id ="heading" text align : Center >Flex Container</h1>
+    <div class="container">
+        <div class="box" id="first">Box1</div>
+        <div class="box" id="second">Box2</div>
+        <div class="box" id="third">Box3</div>
+        <div class="box" id="fourth">Box4</div>
+        <div class="box" id="fifth">Box5</div>
+        <div class="box" id="sixth">Box6</div>
+        <div class="box" id="seventh">Box7</div>
+        <div class="box" id="eighth">Box8</div>
+        <div class="box" id="ninth">Box9</div>
+        <div class="box" id="tenth">Box10</div>
+        <div class="box" id="eleventh">Box11</div>
+
+        <div class="box" id= "twelth">Box12</div>
+        <div class="box" id="thirteenth">Box13</div>
+        <div class="box" id="fourteenth">Box14</div>
+        <div class="box" id="fifteenth">Box15</div>
+        <div class="box" id="sixteenth">Box16</div>
+        <div class="box" id="seventeenth">Box17</div>
+
+    </div>
+</body>
+</html>

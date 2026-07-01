@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Animation</title>
+    <style>
+     .box{
+            background-color: blue;
+            color: white;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+            border: 10px solid black;
+            position:relative;
+            top:20px;
+            left:20px;
+            
+
+            animation-name: ghumkkad;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+     } 
+
+     @keyframes ghumkkad{
+        from{
+            left:20px;
+            
+        }
+        to{
+            left:300px;
+            
+     }
+    }
+     </style>
+</head>
+<body>
+     <div class="box" id="box1">Box1</div>
+</body>
+</html>

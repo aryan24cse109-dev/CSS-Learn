@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title> Transform: Skew</title>
+    <style>
+        .box{
+            background-color: blue;
+            color: white;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+            border: 10px solid black;
+            transition: all  ease-in-out 0s;
+        }
+        #box1{
+            background-color: blue;
+            color: white;
+        }
+        #box1:hover{
+             transform: skew(30deg, 30deg);
+        }
+        #box2{
+            background-color: orange;
+            color: black;
+        }
+        
+        #box2:active{
+            transform: skew(60deg, 40deg);
+        }
+        #box3{
+            background-color: red;
+            color: aqua;
+        }
+        #box3:active{
+            transform: skewX(30deg);
+        }
+        #box4{
+            background-color: green;
+            color: aquamarine;
+        }
+        #box4:active{
+           transform: skewY(40deg);
+        }
+        #box5{
+            background-color: yellow;
+            color: black;
+        }
+        #box5:active{
+          transform: skew(-30deg, 0);
+        }
+</style>
+</head>
+<body>
+    <div class="box" id="box1">Box1</div>
+    <div class="box" id="box2">Box2</div>
+    <div class="box" id="box3">Box3</div>
+    <div class="box" id="box4">Box4</div>
+    <div class="box" id="box5">Box5</div>
+    
+</body>
+</html>

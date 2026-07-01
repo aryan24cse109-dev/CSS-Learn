@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>REM Units</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-size: 5px; /* root reference size */
+            background-color: #222;
+        }
+        #first{
+            height: 4rem; /* 4 x 5px = 20px */
+            width: 10rem;  /* 10 x 5px = 50px */
+            color: azure;
+            background-color: red;
+            margin: 0.5rem; /* 0.5 x 5px = 2.5px */
+            padding: 0.5rem 1rem 1.5rem 2rem; /* top right bottom left */
+            border: 0.5rem solid black; /* 0.5 x 5px = 2.5px */
+            border-radius: 0.5rem; /* 0.5 x 5px = 2.5px */
+            box-sizing: content-box;
+        }
+
+        #second{
+            height: 7rem; /* 7 x 5px = 35px */
+            width: 8rem; /* 8 x 5px = 40px */
+            color: bisque;
+            background-color: blueviolet;
+            margin: .5rem; /* .5 x 5px = 2.5px */
+            padding: .5rem .75rem .75rem .75rem; /* top right bottom left */
+            border: .5rem solid black; /* .5 x 5px = 2.5px */
+            border-radius: .5rem; /* .5 x 5px = 2.5px */
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="first" class="box">Box1</div>
+    <div id="second" class="box">Box2</div>
+</body>
+</html>

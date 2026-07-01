@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Em Relative Units Demo</title>
+    <style>
+
+        body {
+            font-size: 16px;   /* root reference size */
+            background-color: #222;
+        }
+
+        #first {
+            font-size: 1.5em;       /* 1.5 x 16px = 24px */
+            margin: 1em;             /* 1 x 24px = 24px (own font-size) */
+            padding: 2em;            /* 2 x 24px = 48px */
+            background-color: azure;
+            border: 3px solid black;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        #second {
+            font-size: 1.2em;        /* 1.2 x 24px (inherited from #first) = 28.8px */
+            margin: 1em;              /* 1 x 28.8px = 28.8px */
+            padding: 1.5em;           /* 1.5 x 28.8px = 43.2px */
+            background-color: lightcoral;
+            border: 3px solid black;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="first" class="box">
+        Box1
+        <div id="second" class="box">
+            Box2
+        </div>
+    </div>
+
+</body>
+</html>

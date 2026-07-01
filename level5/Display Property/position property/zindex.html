@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Z-Index</title>
+    <link rel="stylesheet" href="zindex.css">
+<style>
+.container {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            background-color: lightgray;
+        }
+        .box1 , .box2 {
+            position: absolute;
+            border: 2px solid black;
+            width :100px;
+            height: 100px;
+            text-align:center;
+            font-size: 25px;
+        }
+        .box1 {
+            background-color: lightblue;
+            left: 20px;
+            top: 60px;
+            z-index: 1; /* lower z-index */
+        }
+        .box2 {
+            background-color: lightcoral;
+            left: 60px;
+            top: 20px;
+            z-index: 2; /* higher z-index */
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Box1</div>
+        <div class="box2">Box2</div>
+        
+</body>
+</html>

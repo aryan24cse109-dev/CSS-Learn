@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Descendent Selector</title>
+    <style>
+        /*In Descendent Selector we select the element by its id and apply styles to it for define id in style , we use # symbol. Here you can see in First div we define id as firstParagraph and in that we have p tag and we apply color to it. In Second div we define id as first-Pragraph and in that we have p tag and we apply color to it but you also se a another p a tag which is not in any div so id is not applied to it and it will be in deafult color and if you see style of any id on that p tag you should include p tag in any of div  */ 
+        #firstParagraph p {
+            color: brown;
+        }
+        #first-Pragraph p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+   <div id="firstParagraph">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda soluta officia suscipit itaque? Autem iste aliquid accusantium id corporis ut, iusto neque saepe sit a eius perferendis ad doloremque recusandae.</p>
+    </div> 
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda soluta officia suscipit itaque? Autem iste aliquid accusantium id corporis ut, iusto neque saepe sit a eius perferendis ad doloremque recusandae.</p>
+    
+    <!-- 
+ A few details worth knowing:
+Technically, HTML5 allows almost any character in an id except whitespace — so spaces are the one thing you really can't use. Anything that looks like a space (literal space, tab, newline) breaks the id into multiple tokens.
+The hyphenated style (first-paragraph) is called kebab-case, and it's the most common convention for ids and classes in CSS. You'll also see camelCase (firstParagraph) used sometimes, especially if the id is also being referenced in JavaScript, since getElementById("firstParagraph") reads a bit more naturally to JS developers than working with hyphens (which aren't valid in JS variable names anyway).
+
+So your options are:
+id="first-paragraph" then target it as #first-paragraph in CSS
+id="firstParagraph" then target it as #firstParagraph in CSS
+
+Both work fine — just pick one convention and stay consistent across your project so you don't trip over this again.
+ -->
+
+    <div id="first-Pragraph">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vitae molestiae eum aperiam blanditiis natus, repudiandae magnam dolorem aspernatur quam!</p>
+
+    </div>
+    
+   
+</body>
+</html>

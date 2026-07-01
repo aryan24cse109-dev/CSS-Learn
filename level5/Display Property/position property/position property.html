@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Position Property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #222;
+            font-size: 20px;
+        }
+        .box{
+            height: 2rem;
+            width: 2rem;
+            color: azure;
+            background-color: red;
+            margin: 0.4rem;
+            padding: 0.4rem 0.5rem 0.75rem 1rem;
+            border: 0.4rem solid black;
+            border-radius: 0.4rem;
+            box-sizing: content-box;
+        }
+          #first{
+            position: static;
+          }
+          #second{
+            position: relative;
+            top: 10px;
+            left: 50px;
+            
+          }
+          #third{
+            position: absolute;
+            top: 20px;
+     }
+#fourth{
+            position: fixed;
+            right:20px;
+           
+}
+          
+
+    </style>
+</head>
+<body>
+    <div id="first" class="box">Box1</div>
+ <div id="second" class="box">Box2</div>
+  <div id="third" class="box">Box3</div>
+   <div id="fourth" class="box">Box4</div>
+   <div  class="box">Box</div>
+   <div  class="box">Box</div>
+   <div  class="box">Box</div>
+   <div  class="box">Box</div>
+   <div  class="box">Box</div>
+   <div  class="box">Box</div>
+   <div " class="box">Box</div>
+    
+</body>
+</html>

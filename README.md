@@ -183,13 +183,13 @@ This repo serves as:
 ## 🏆 Certification
 
 <p align="center">
-  <a href="./image/Complete CSS.pdf">
+  <a href="./images/Complete CSS.pdf">
     <img src="./certificate/certificate-thumbnail.png" alt="Complete CSS Certificate" width="600">
   </a>
 </p>
 
 <p align="center">
-  📄 <a href="./image/Complete CSS.pdf">View Full Certificate (PDF)</a>
+  📄 <a href="./images/Complete CSS.pdf">View Full Certificate (PDF)</a>
 </p>
 
 This repository reflects the concepts covered in the **Complete CSS** course by KnowledgeGate, completed with a score of **75%**.

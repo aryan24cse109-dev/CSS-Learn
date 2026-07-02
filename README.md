@@ -184,7 +184,7 @@ This repo serves as:
 
 <p align="center">
   <a href="./images/Complete CSS.pdf">
-    <img src="./certificate/certificate-thumbnail.png" alt="Complete CSS Certificate" width="600">
+    <img src="./certificate-thumbnail.png" alt="Complete CSS Certificate" width="600">
   </a>
 </p>
 

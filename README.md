@@ -109,6 +109,12 @@ CSS/
 │       ├── notes.md
 │       └── transitions.html
 │
+├── image/
+│   └── Complete CSS.pdf
+│
+├── certificate/
+│   └── certificate-thumbnail.png
+│
 ├── .gitignore
 └── README.md
 ```
@@ -173,6 +179,21 @@ This repo serves as:
 
 - **HTML5** – markup for practice examples
 - **CSS3** – core focus of this repository
+
+## 🏆 Certification
+
+<p align="center">
+  <a href="./image/Complete CSS.pdf">
+    <img src="./certificate/certificate-thumbnail.png" alt="Complete CSS Certificate" width="600">
+  </a>
+</p>
+
+<p align="center">
+  📄 <a href="./image/Complete CSS.pdf">View Full Certificate (PDF)</a>
+</p>
+
+This repository reflects the concepts covered in the **Complete CSS** course by KnowledgeGate, completed with a score of **75%**.
+Certificate ID: `CERT-1783001904981-0E22DED5` · [Verify Certificate](https://knowledgegate.in/certificate/F1EF721D)
 
 ## 📌 Status
 
